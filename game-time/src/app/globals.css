@@ -2,20 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: black!important;
+  color: white!important;
+}
+
+.game-title {
+  font-size: 12vw;
+  text-align: center;
+}
+
+.game-banner {
+  width: 75%!important;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2%;
+}
+
+.main-info-container {
+  margin-top: 2%;
+}
+
+.sub-header {
+  text-align: center;
+}
+
+.player-count {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.info-row {
+  margin-bottom: 2%;
+}
+
+.notes {
+  text-align: center;
+  color: red;
 }
